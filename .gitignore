@@ -1,0 +1,7 @@
+/output
+/datasets
+/**/__pycache__
+/**/__PYCACHE__
+/pretrained_weights/re10k.ckpt
+/pretrained_weights/acid.ckpt
+/for_thesis

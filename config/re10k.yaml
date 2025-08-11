@@ -1,0 +1,31 @@
+dataset_name: "re10k"
+checkpoint_path: null
+frame_limit: -1 # for debugging, set to -1 to disable
+seed: 0
+nopo_enable: true
+n_views: 16
+sample_rate: 8
+nopo_checkpoint: re10k
+new_submap_every: 3
+aligner:
+  iterations: 200
+  cam_rot_lr: 0.0002
+  cam_trans_lr: 0.002
+  filter_alpha: False
+  alpha_thre: 0.98
+  soft_alpha: True
+  mask_invalid_depth: False
+  key_frame_pose: "nopo"
+data:
+  input_path: sample_data
+  output_path: output/re10k/000c3ab189999a83/
+  scene_name: 000c3ab189999a83
+cam:
+  H: 256
+  W: 256
+  fx: 1
+  fy: 1
+  cx: 1
+  cy: 1
+  crop_edge: 0
+  depth_scale: 5000.0

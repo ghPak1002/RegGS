@@ -1,0 +1,14 @@
+name: reggs
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - faiss-gpu=1.8.0
+  - pytorch=2.5.1
+  - pytorch-cuda=11.8
+  - torchvision=0.20.1
+  - numpy=1.26.4
+

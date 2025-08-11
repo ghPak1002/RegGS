@@ -1,0 +1,9 @@
+[submodule "thirdparty/simple-knn"]
+	path = thirdparty/simple-knn
+	url = https://github.com/VladimirYugay/simple-knn.git
+[submodule "thirdparty/diff-gaussian-rasterization-w-pose"]
+	path = thirdparty/diff-gaussian-rasterization-w-pose
+	url = https://github.com/rmurai0610/diff-gaussian-rasterization-w-pose.git
+[submodule "thirdparty/gaussian_rasterizer"]
+	path = thirdparty/gaussian_rasterizer
+	url = https://github.com/VladimirYugay/gaussian_rasterizer.git

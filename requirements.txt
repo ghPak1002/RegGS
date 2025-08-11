@@ -1,0 +1,19 @@
+--extra-index-url https://mirrors.aliyun.com/pypi/simple/
+open3d
+plyfile
+einops
+roma
+jaxtyping
+dacite
+lightning
+tabulate
+lpips
+opencv-python==4.11.0.86
+wandb
+scikit-image
+scikit-video
+e3nn
+omegaconf
+colorspacious
+trimesh
+evo

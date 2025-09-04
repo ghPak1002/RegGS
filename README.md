@@ -60,7 +60,7 @@ This codebase has been successfully tested with Python 3.10, CUDA 11.8, and PyTo
     ```bash
     pip install thirdparty/diff-gaussian-rasterization-w-pose
 
-    pip install thirdparty/gaussian_rasterizer`
+    pip install thirdparty/gaussian_rasterizer
 
     pip install thirdparty/simple-knn
     ```
